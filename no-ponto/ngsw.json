@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1607098129857,
+  "timestamp": 1607098408126,
   "index": "/no-ponto/index.html",
   "assetGroups": [
     {
@@ -175,7 +175,7 @@
     "/no-ponto/assets/icons/mstile-150x150.png": "d5c395a496e0ef4c4d9be00cf7cdaf8cc06e9fae",
     "/no-ponto/assets/layout/css/layout-blue.css": "c4439a84a6c5126b261896b3f174acf937b795dc",
     "/no-ponto/assets/layout/css/layout-blue.scss": "c2cef91afebb4ccb7e1a03f5a6b8cbbca9950e3a",
-    "/no-ponto/assets/layout/images/favicon.png": "6498808ce89b344582be915c27f17ce49e79406f",
+    "/no-ponto/assets/layout/images/favicon.png": "b39a27c0fd5931b7f0f82e2037737f59dd7d46c3",
     "/no-ponto/assets/layout/images/wilton.jpg": "efbdc1a24cf2ee878d547da5eca18566d670b691",
     "/no-ponto/assets/sass/layout/_animation.scss": "41bd9fb86b350bc72bf7501c1d789d235b6f024e",
     "/no-ponto/assets/sass/layout/_config.scss": "464af9b69e2b1b0c247069560a502853920c0976",
