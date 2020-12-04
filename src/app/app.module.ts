@@ -7,6 +7,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { TokenFake } from './global/token-fake';
+
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [TokenFake],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
