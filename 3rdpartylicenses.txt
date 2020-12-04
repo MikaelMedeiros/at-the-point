@@ -7,6 +7,9 @@ MIT
 @angular/core
 MIT
 
+@angular/forms
+MIT
+
 @angular/platform-browser
 MIT
 
@@ -48,6 +51,8 @@ primeng/api
 primeng/card
 
 primeng/confirmdialog
+
+primeng/messages
 
 rxjs
 Apache-2.0
