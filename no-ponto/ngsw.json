@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1607097038863,
+  "timestamp": 1607098129857,
   "index": "/no-ponto/index.html",
   "assetGroups": [
     {
@@ -31,6 +31,9 @@
       },
       "urls": [
         "/no-ponto/assets/db.json",
+        "/no-ponto/assets/icons/192x192.jpeg",
+        "/no-ponto/assets/icons/48x48.jpeg",
+        "/no-ponto/assets/icons/512x512.jpeg",
         "/no-ponto/assets/icons/apple-touch-icon.png",
         "/no-ponto/assets/icons/favicon-16x16.png",
         "/no-ponto/assets/icons/favicon-32x32.png",
@@ -155,17 +158,20 @@
   "dataGroups": [],
   "hashTable": {
     "/no-ponto/assets/db.json": "0aa10cd10d1f1b67ee31c404e4dbc2e7818d3eeb",
+    "/no-ponto/assets/icons/192x192.jpeg": "59b292b2ca586635b55c9cb691735e12654c2474",
+    "/no-ponto/assets/icons/48x48.jpeg": "8987ad1df517a0db70f745f8d200395fdf5aee47",
+    "/no-ponto/assets/icons/512x512.jpeg": "95d7ad833d75d73273274114071d491bdcff83f8",
     "/no-ponto/assets/icons/apple-touch-icon.png": "4797541ef59b84d592a612a2f1b899def90b4bcd",
     "/no-ponto/assets/icons/favicon-16x16.png": "7d273f2501c2540bda9ef6db880f2a849e4adbd5",
     "/no-ponto/assets/icons/favicon-32x32.png": "86664f9e6bb6c71820bbb0c78660d0578cdf6ae9",
-    "/no-ponto/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/no-ponto/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/no-ponto/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/no-ponto/assets/icons/icon-128x128.png": "8ce44b8d36b5f5a40da21115b064b8ef8199a3cf",
+    "/no-ponto/assets/icons/icon-144x144.png": "5a153dd037d67def35732d329e9fe088f6723c4b",
+    "/no-ponto/assets/icons/icon-152x152.png": "c9c8b036d71b3eeecabf5f48043bcf7d0b80a353",
     "/no-ponto/assets/icons/icon-192x192.png": "35c93c6a0b9934f84d032f501b5f419cb6f9d1cb",
     "/no-ponto/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
     "/no-ponto/assets/icons/icon-512x512.png": "c0f1f884881f991d0dcc14a58b38825a11876ae5",
-    "/no-ponto/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/no-ponto/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/no-ponto/assets/icons/icon-72x72.png": "857c50090cfc85cc634b5e156f4b848e38057902",
+    "/no-ponto/assets/icons/icon-96x96.png": "da2cc400194de52099f1c1cab74b025ecfdf8225",
     "/no-ponto/assets/icons/mstile-150x150.png": "d5c395a496e0ef4c4d9be00cf7cdaf8cc06e9fae",
     "/no-ponto/assets/layout/css/layout-blue.css": "c4439a84a6c5126b261896b3f174acf937b795dc",
     "/no-ponto/assets/layout/css/layout-blue.scss": "c2cef91afebb4ccb7e1a03f5a6b8cbbca9950e3a",
