@@ -1,0 +1,24 @@
+{
+  "label": "Superintendente",
+  "type": "person",
+  "styleClass": "p-person",
+  "expanded": true,
+  "data": {"name":"Antônio Augusto Carelli Filho", "avatar": "wilton.jpg"},
+  "children": [
+      {
+          "label": "CFO",
+          "type": "person",
+          "styleClass": "p-person",
+          "expanded": true,
+          "data": {"name":"Saul Goodman", "avatar": "wilton.jpg"},
+          "children":[{
+              "label": "Tax",
+              "styleClass": "department-cfo"
+          },
+          {
+              "label": "Legal",
+              "styleClass": "department-cfo"
+          }]
+      }
+  ]
+}

@@ -19,7 +19,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/competence-organogram-chart'),
+      dir: require('path').join(__dirname, './coverage/no-ponto'),
       subdir: '.',
       reporters: [
         { type: 'html' },

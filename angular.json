@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "competence-organogram-chart": {
+    "no-ponto": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/competence-organogram-chart",
+            "outputPath": "dist/no-ponto",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,12 +25,17 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/prismjs/prism.js",
+              "node_modules/prismjs/components/prism-typescript.js"
+            ],
+            "allowedCommonJsDependencies": ["@fullcalendar/daygrid","@fullcalendar/timegrid","@fullcalendar/interaction","chart.js"]
           },
           "configurations": {
             "production": {
@@ -58,25 +63,27 @@
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "competence-organogram-chart:build"
+            "browserTarget": "no-ponto:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "competence-organogram-chart:build:production"
+              "browserTarget": "no-ponto:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "competence-organogram-chart:build"
+            "browserTarget": "no-ponto:build"
           }
         },
         "test": {
@@ -88,10 +95,11 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -113,16 +121,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "competence-organogram-chart:serve"
+            "devServerTarget": "no-ponto:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "competence-organogram-chart:serve:production"
+              "devServerTarget": "no-ponto:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "competence-organogram-chart"
+  "defaultProject": "no-ponto"
 }
